@@ -1,6 +1,55 @@
 <html>
-    <head></head>
-    <body>
-        <h3>Hello world</h3>
-    </body>
+
+<head>
+    <link rel="stylesheet" href="main.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Six+Caps&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <div class="container">
+    <div class="product-tile">
+        <div class="image" style="background-image: url('data:image/png;base64,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');">
+        </div>
+        <div class="info">volaky text</div>
+        <div class="statistika">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="original-price">99999 din</div>
+        <div class="price">52000 din</div>
+        <div class="discount">Usteda: 5616 din</div>
+        <div class="action-buttons"><button>Detaljnije</button></div>
+    </div>
+    <div class="product-tile">
+        <div class="image" style="background-image: url('https://www.winwin.rs/media/catalog/product/cache/5/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/8/6/8646405.jpg');"></div>
+        <div class="info">volaky text</div>
+        <div class="statistika">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="original-price">99999 din</div>
+        <div class="price">52000 din</div>
+        <div class="discount">Usteda: 5616 din</div>
+        <div class="action-buttons"><button>Detaljnije</button></div>
+    </div>
+    <div class="product-tile">
+        <div class="image" style="background-image: url('https://cdn.vox-cdn.com/thumbor/YfOQR2uK9rXImH27jFzBGkDLRws=/0x0:3840x2160/1200x800/filters:focal(23x100:637x714)/cdn.vox-cdn.com/uploads/chorus_image/image/64795811/Skirball_405_MRT.0.jpg');"></div>
+        <div class="info">volaky text</div>
+        <div class="statistika">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="original-price">99999 din</div>
+        <div class="price">52000 din</div>
+        <div class="discount">Usteda: 5616 din</div>
+        <div class="action-buttons"><button>Detaljnije</button></div>
+    </div>
+   </div>
+   
+</body>
+
 </html>

@@ -1,0 +1,55 @@
+* {
+    font-family: sans-serif;
+}
+
+.container{
+    width:768px;
+    margin: 0 auto;
+}
+
+.product-tile{
+    width:33.3%;
+    float:left;
+}
+
+.product-tile .image{
+    width:100%;
+    height: 150px;
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.product-tile .price{
+    color:rgb(0,147,68);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.product-tile .original-price{
+    font-size:12px;
+    text-decoration: line-through;
+}
+
+.product-tile .discount{
+    font-size: 12px;
+}
+
+.product-tile .action-buttons button{
+    background-color: yellowgreen;
+    font-size: 14px;
+    font-weight: bold;
+    padding:16px;
+    border-style: none;
+    border-bottom: 2px green solid;
+}
+
+@media screen and (max-width:768px) {
+    .container{
+        width:450px;
+    }
+    .product-tile{
+        width:50%;
+    }
+}
